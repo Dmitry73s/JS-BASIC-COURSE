@@ -1,0 +1,25 @@
+﻿<meta charset="utf-8">
+<script type="text/javascript">
+alert ('Первый вопрос');
+let i=1;
+let n=100;
+number:
+while (i<n) {
+  i++;
+  for (let j=2; j<i; j++) {
+  if (i%j==0) continue number;
+}
+  alert(i); // простое
+}
+
+alert ('Переходим ко второму вопросу');  
+  function numberRange (k,m) {  
+  do {
+  	alert (k);
+  	k++;
+  	} while (k<=m);
+} 
+run=numberRange (0,10);
+ 
+</script>
+
